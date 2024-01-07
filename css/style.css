@@ -1,0 +1,228 @@
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+/* Header Section Styles */
+
+.header-banner{
+    
+    /* width: 100%; */
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+   
+
+}
+.header-text{
+    position: absolute;
+    left:50%;
+    top:30%;
+    margin-left: 230px;
+    text-align: right;
+   
+    
+        
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 700px;
+    margin-bottom: 24px;
+    
+    
+        
+}
+.header-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+    
+}
+.btn-primary{
+    border: 0;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    background-color: #F15B22;
+
+}
+
+/* What I did Fail Section */
+.what-i-did-fail{
+    margin-left: 430px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.failure-reason{
+    margin-left: 135px;
+}
+.failure-title{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.failure-description{
+    margin-bottom: 33px;
+    text-align: left;
+}
+.why-i-am-failure{
+    margin-bottom: 15px;
+}
+.fa-solid {
+    color: green;
+    font-size: 25px;
+}
+/* plan section style */
+.plan{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.plan-section-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+.plan-section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+img{
+    margin-bottom: 30px;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.plan-sub-title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 124px;
+
+}
+/* Positive Mindset */
+.positive-mindset{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 130px;
+    border-radius: 8px;
+    
+
+}
+.mindset-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF;
+    
+}
+.wrapper{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    padding: 60px 64px;
+
+
+}
+
+.btn-primary2{
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    border: 0;
+    color: #F15B22;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 600;
+
+
+}
+/* Footer Style */
+.footer{
+    display: flex;
+    background-color: black;
+    height: 557px;
+    gap:330px ;
+}
+.future{
+    padding-left: 230px;
+    padding-top: 130px;
+}
+.future-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+.future-description{
+    font-size: 16px;
+    font-weight: 40;
+    margin-bottom: 20px;
+    color: white;
+}
+.email{
+    margin-bottom: 20px;
+    color: white;
+}
+.phone{
+    margin-bottom: 20px;
+    color: white;
+}
+img{
+    
+    border-radius: 100%;
+    margin-left: 10px;
+    border:0;
+}
+a{
+    text-decoration: none;
+}
+.subscribe{
+    padding-right:230px ;
+    padding-top: 130px;
+    
+}
+.sub-title{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+input[type="email"]{
+    width: 325px;
+    height: 64px;
+    background-color: black;
+    font-size: 18px;
+    padding-left: 21px;
+    margin-bottom: 16px;
+
+}
+input[type="submit"]{
+    width: 170px;
+    height: 64px;
+    padding: 20px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border-radius: 5px;
+    
+
+}
